@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yang Tao's blog # the main title
+title: Troy's blog # the main title
 
 tagline: Great things happen with time # it will display as the sub-title
 
@@ -23,10 +23,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://troy.github.io"
+url: "https://oatmi.github.io"
 
 github:
-  username:  oatmi # change to your github username
+  username: oatmi # change to your github username
 
 twitter:
   username: oatmmi # change to your twitter username
@@ -104,7 +104,7 @@ avatar: 'https://blog-1255890202.cos.ap-beijing.myqcloud.com/xqIIYQYs7IUDlxb_yt9
 social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
-toc: true
+toc: false
 
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
@@ -146,7 +146,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 50
 
 # The base URL of your site
 baseurl: ""
